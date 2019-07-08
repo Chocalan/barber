@@ -1,0 +1,22 @@
+.negro {
+    background-color: $eerieblack;
+    color: $white;
+       &__img {
+         width: 30%;
+         margin-left: 10%;
+        }
+}
+nav{
+  div{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration-color: $white;  
+  }
+  .navbar-toggler {
+    background-color: white;
+
+  }
+  a, button{
+    display: inline-block;
+  }
+}

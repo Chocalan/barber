@@ -1,0 +1,28 @@
+.cuerpo {
+    margin: 3rem;
+    font-family: $roboto;
+    color: $raisinblack;
+    font-weight: $extra-light;
+    line-height : 3em;
+        &__parrafos {
+            margin: 2rem;
+        }
+
+}
+
+.naomi {
+    text-align: center;
+    &__img {
+        width: 100%;
+    }
+    &__titulo {
+        @extend .title;
+        font-family: $Playfair;
+        text-align: left;
+    }
+    
+}
+
+.depelos {
+    color: $fuzzywuzzy;
+}
